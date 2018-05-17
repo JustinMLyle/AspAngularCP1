@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  aspangularcp1:
+    image: aspangularcp1
+    build:
+      context: .\AspAngularCP1
+      dockerfile: Dockerfile
