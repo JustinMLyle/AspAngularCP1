@@ -1,0 +1,34 @@
+﻿@model AspAngularCP1.Models.Question
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Question</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.SurveyQuestion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SurveyQuestion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Required)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Required)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.SurveyID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

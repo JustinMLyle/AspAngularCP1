@@ -29,5 +29,15 @@ namespace AspAngularCP1.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<AspAngularCP1.Models.Survey> Surveys { get; set; }
+
+        public System.Data.Entity.DbSet<AspAngularCP1.Models.Question> Questions { get; set; }
+
+        public System.Data.Entity.DbSet<AspAngularCP1.Models.Responses> Responses { get; set; }
+
+        public System.Data.Entity.DbSet<AspAngularCP1.Models.Admin> Admins { get; set; }
+
+        public System.Data.Entity.DbSet<AspAngularCP1.Models.Customer> Customers { get; set; }
     }
 }

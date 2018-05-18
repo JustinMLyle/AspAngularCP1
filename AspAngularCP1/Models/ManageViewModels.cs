@@ -12,6 +12,8 @@ namespace AspAngularCP1.Models
         public string PhoneNumber { get; set; }
         public bool TwoFactor { get; set; }
         public bool BrowserRemembered { get; set; }
+        public bool IsAdmin { get; set; }
+
     }
 
     public class ManageLoginsViewModel
@@ -56,6 +58,8 @@ namespace AspAngularCP1.Models
         [Display(Name = "Confirm new password")]
         [Compare("NewPassword", ErrorMessage = "The new password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
+
+        
     }
 
     public class AddPhoneNumberViewModel
