@@ -6,10 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspAngularCP1", "AspAngularCP1\AspAngularCP1.csproj", "{4629342A-034D-4B95-A8D2-586814BF58C6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{35E30569-AC91-451E-9F9A-4A46375ED918}"
-	ProjectSection(SolutionItems) = preProject
-		ProductTests.cs = ProductTests.cs
-		Project.json = Project.json
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUnits", "TestUnits\TestUnits.csproj", "{13F77227-02AA-4074-8380-3690F3F8C8B9}"
 EndProject
