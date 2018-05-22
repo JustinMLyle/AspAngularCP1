@@ -21,7 +21,7 @@ namespace AspAngularCP1.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("SurveyDBContext", throwIfV1Schema: false)
         {
         }
 
@@ -35,9 +35,6 @@ namespace AspAngularCP1.Models
         public System.Data.Entity.DbSet<AspAngularCP1.Models.Question> Questions { get; set; }
 
         public System.Data.Entity.DbSet<AspAngularCP1.Models.Responses> Responses { get; set; }
-
-        public System.Data.Entity.DbSet<AspAngularCP1.Models.Admin> Admins { get; set; }
-
-        public System.Data.Entity.DbSet<AspAngularCP1.Models.Customer> Customers { get; set; }
+                
     }
 }

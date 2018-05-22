@@ -7,13 +7,13 @@ namespace AspAngularCP1.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class InitialDB : IMigrationMetadata
+    public sealed partial class NewMigrations : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(InitialDB));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(NewMigrations));
         
         string IMigrationMetadata.Id
         {
-            get { return "201805171534103_InitialDB"; }
+            get { return "201805201740165_NewMigrations"; }
         }
         
         string IMigrationMetadata.Source

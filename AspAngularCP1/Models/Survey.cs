@@ -15,8 +15,8 @@ namespace AspAngularCP1.Models
         public string SurveyTitle { get; set; }
 
         public List<Question> SurveyQuestions { get; set; }
-        public List<Customer> Completions { get; set; }
-        public List<Customer> Participants { get; set; }
+        public List<ApplicationUser> Completions { get; set; }
+        public List<ApplicationUser> Participants { get; set; }
 
     }
 }
